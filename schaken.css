@@ -8,8 +8,8 @@ body {
     place-items: center;
     justify-content: center;
     overflow-x: hidden;
-    background: url(thermopylae.webp);
-    background-size: 100%;
+    background: url(Leonidas.jpg);
+    background-size: cover;
     height: 100vh;
 }
 
@@ -39,7 +39,7 @@ li {
     margin: .5px;
     width: 75px;
     height: 75px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.9);
 }
 
 h1 {
@@ -51,6 +51,7 @@ h1 {
     padding: 10px;
     background-color: gray;
     border-radius: 5px;
+    background-image: linear-gradient(rgb(136, 32, 32), rgb(202, 187, 112), rgb(205, 127, 50));
 }
 
 #tog {
@@ -59,7 +60,7 @@ h1 {
     text-align: left;
     background-color: #fff;
     color: #000;
-    border: 2px solid #fff;
+    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
     border-radius: 5px;
 }
@@ -67,7 +68,7 @@ h1 {
 #reset-btn {
     background-color: #ff0000;
     border: none;
-    color: white;
+    color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
